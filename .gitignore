@@ -7,3 +7,4 @@ undo_log.jsonl
 
 # Generated output category folders (created by the script at runtime)
 Cleaned data/
+!screenshots/*.png

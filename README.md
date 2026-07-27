@@ -66,3 +66,10 @@ The script fails gracefully with a clear message instead of crashing for common 
 - Filenames that already start with a date prefix (e.g. `2026-01-10_report.pdf`) are left alone and not re-prefixed.
 - Because `filetype` identifies files by binary signature, plain-text-based formats (`.txt`, `.csv`, `.json`, `.md`, `.py`, etc.) can't be content-verified the same way images, PDFs, and office documents can — the script trusts the extension for these instead of flagging them as unverifiable.
 - Console log output is currently disabled (file logging only). To also see live progress in the terminal, uncomment the `logging.StreamHandler()` line in the script.
+## Example Output
+
+**Before:**
+![Before](screenshots/before.png)
+
+**After:**
+![After](screenshots/after.png)
