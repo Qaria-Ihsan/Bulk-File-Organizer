@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+bulk_file_organizer_log.txt
+undo_log.jsonl
+
+# Generated output category folders (created by the script at runtime)
+Cleaned data/
